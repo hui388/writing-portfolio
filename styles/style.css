@@ -1,0 +1,229 @@
+.container-fluid {
+  height: 100%;
+}
+
+h1, h2, h4 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+
+
+
+#icons {
+  float: none;
+  margin: 10px auto;
+}
+
+.col-centered {
+  margin: 0 20px;
+}
+
+#writings {
+  /*background-color: red;*/
+  background-image: url('../images/writing-lilies.png');
+  /*background-size: 100%;*/
+
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 0;
+  border-color: black;
+    opacity: 0.6;
+
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#writings:hover {
+  opacity: 0.9;
+}
+
+.writings-h3 {
+  margin-top: -180px;
+  width: 100%;
+    background-color: white;
+ font-family: 'Cormorant Garamond', serif;
+ font-style: bold;
+ font-size: 50px;
+ opacity: 1;
+ position: absolute;
+ z-index: 100;
+ color: black;
+
+}
+
+/*.x {
+  width: 100%;
+  background-color: white;
+}*/
+.col-md-4, .col-md-3, .col-md-5 {
+  /*padding-right: 0px;
+  padding-left: 0;
+  width: 100%;
+  height: 200px;*/
+}
+
+.col-md-3, .col-md-5 {
+  /*margin-top: 20px;*/
+}
+
+.lower {
+  background-color: pink;
+  height: 200px;
+  padding: 0;
+
+}
+
+#lower-row {
+  /*padding: 0 130px;*/
+  width: 100%;
+  height: 200px;
+  margin: 20px auto;
+
+}
+
+.col-md-12 {
+  padding: 0;
+  width: 100%;
+
+}
+
+#first, #second, #third, #writings {
+  text-decoration: none;
+  /*position: relative;*/
+
+}
+
+#first:link, #second:link, #third:link, #writings:link {
+  text-decoration: none;
+  color: black;
+}
+
+
+#first {
+  /*border-style: solid;*/
+  /*border-color: black;*/
+  /*margin-right: 10px;*/
+  background-image: url('../images/about-lilly.png');
+  /*background-size: 400px 250px;*/
+  background-position: 100%;
+  background-repeat: no-repeat;
+  /*height: 100px;*/
+  opacity: .6;
+
+}
+
+#second {
+  /*border-style: solid;
+  border-width: 5px;
+  border-color: black;*/
+  background-image: url('../images/white-lillies.png');
+  background-position: 60%;
+  background-repeat: no-repeat;
+  /*margin-right: 10px;*/
+  opacity: .6;
+}
+
+#third {
+  /*border-style: solid;
+  border-width: 5px;
+  border-color: black;*/
+  background-image: url('../images/contact-img.png');
+  background-position: 80%;
+  background-repeat: no-repeat;
+  opacity: .6;
+}
+
+#first:hover, #second:hover, #third:hover {
+  opacity: .9;
+}
+
+.low-row {
+
+ padding: 0;
+ font-size: 30px;
+ font-style: bold;
+}
+
+#text-row {
+
+ width: 100%;
+ height: 35px;
+ margin: 0 auto;
+ margin-top: -135px;
+ background-color: white;
+ z-index: 22200;
+ position: relative;
+ font-family: 'Cormorant Garamond', serif;
+}
+
+
+html, body { margin: 0; padding: 0;}
+
+
+#writing-link {
+  text-decoration: none;
+
+}
+
+#writing-link:link {
+  color: black;
+}
+
+#my-name {
+  text-decoration: none;
+  color: black;
+}
+
+.titles {
+
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+  margin-top: 10px;
+  /*font-style: italic;*/
+}
+
+.writing-excerpts {
+  height: 200px;
+  background-color: pink;
+}
+.container {
+  width: 60%;
+}
+
+.con {
+  /*width:100%;*/
+}
+
+#block1 {
+
+  background-image: url('../images/writing-lilies.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  border-color: black;
+  border-radius: 1;
+  border-style: dashed;
+
+}
+
+#block2 {
+
+  background-image: url('../images/writing-lilies.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  border-color: black;
+  border-radius: 1;
+  border-style: dashed;
+}
